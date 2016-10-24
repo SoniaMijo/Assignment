@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+*{
+box-sizing: border-box;
+margin:0;
+padding: 0;
+}
+.row{
+width:100%;
+}
+
+.row > div{
+padding: 10px;
+
+}
+
+h1{
+margin-top: 50px;
+text-align: center;
+margin-bottom: 60px;
+
+}
+
+p{
+padding:25px;
+border: 1px solid black;
+background-color: gray;
+
+
+
+
+}
+
+section{
+border:1px solid black;
+width:25%;
+text-align: center;
+float: right;
+}
+
+#s1{
+background-color: #FF7F50;
+}
+
+#s2{
+background-color: #A52A2A;
+}
+
+#s3{
+background-color: yellow;
+}
+
+@media (min-width: 992px){
+.col-lg-4, .col-md-4, .col-sm-6{
+float: left;
+}
+.col-lg-4{
+border:1 px solid black;
+width:33%;
+position:relative;
+}
+.col-md-4{
+border:1 px solid black;
+width:33%;
+}
+.col-sm-6{
+border:1 px solid black;
+width:33%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+.col-lg-4, .col-md-4, .col-sm-6{
+float:left;
+}
+.col-lg-4{
+border:1 px solid black;
+width:50%;
+}
+.col-md-4{
+border:1 px solid black;
+width:50%;
+}
+.col-sm-6{
+border:1 px solid black;
+width:100%;
+}
+}
+</style>
+
+</head>
+<body>
+
+<div class="row">
+<h1>Our Menu</h1>
+<div class="col-lg-4">
+<section id="s1">Chicken</section>
+<p>
+lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor insisdidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exersiatation ullamco laboris nisi ut aliquip ex ea commondo consequat.
+</p>
+</div>
+</div>
+
+
+<div class="row">
+
+<div class="col-md-4">
+<section id="s2">Beef</section>
+<p>
+lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor insisdidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exersiatation ullamco laboris nisi ut aliquip ex ea commondo consequat.
+</p>  
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-sm-6">
+<section id="s3">Sushi</section>
+<p>
+lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor insisdidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exersiatation ullamco laboris nisi ut aliquip ex ea commondo consequat.
+</p>  
+</div>
+</div>
+</body>
+</html>
